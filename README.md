@@ -1,5 +1,5 @@
 # VideiraProjectPMW
-VideiraProjectPMW é o início de projeto de site para a Igreja Videira de Palmas, com os seguintes objetivos:
+VideiraProjectPMW é o início de um projeto de site para a Igreja Videira em Palmas, com os seguintes objetivos:
       1. Construir um site estático com auxilio do framework Bootstrap;
       2. Migrar o site estático para o CMS WordPress;
       3. Usar jQuery para deixar o site visualmente atraente;
