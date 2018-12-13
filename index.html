@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Videira Palmas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-md nav-shadow fixed-top m-0 py-0 navbar-style">
+        <a href="index.html" class="navbar-brand">
+            <embed src="icons/logo-videira-white-197x64.png">
+        </a>
+        <!-- Botão que substituí a os links -->
+        <button class="navbar-toggler m-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"><i class="fas fa-ellipsis-v"></i></span>
+        </button>
+        <!-- Elementos escondidos na redução da largura da página -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="pags/sobre.html" class="nav-link">Sobre</a></li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown">Células</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Rede Jovens</a>
+                        <a class="dropdown-item" href="#">Rede Casais</a>
+                        <a class="dropdown-item" href="#">Rede Adolescentes</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="../palavras.html" class="nav-link">Palavras</a></li>
+                <li class="nav-item"><a href="../contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CAROUSSEL -->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1 carousel-sides bg-dark d-none d-md-block"></div>
+            <div class="col-lg-10 col-md-12 col-sm-12 carousel-style">
+                <div id="carouselTransition" class="carousel slide" data-ride="carousel">
+                    <!-- Links -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselTransition" data-slide="0"></li>
+                        <li data-target="#carouselTransition" data-slide="1"></li>
+                        <li data-target="#carouselTransition" data-slide="3"></li>
+                    </ol>
+                    <!-- Imagens -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="imgs/banner-1.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imgs/banner-2.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imgs/banner-3.jpg">
+                        </div>
+                    </div>
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#carouselTransition" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselTransition" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-1 carousel-sides bg-dark d-none d-md-block"></div>
+        </div>
+    </section>
+
+    <!-- NEWS -->
+    <article class="py-2 news-total-style">
+        <article class="container">
+            <div class="row d-flex justify-content-center pt-3">
+                <div class="col-lg-3 col-md-4 news-style">
+                    <h3>Title News</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, deleniti libero
+                        suscipit
+                        placeat enim ad eligendi culpa eum at modi, veniam incidunt esse atque similique, dolorum ipsa
+                        ducimus accusamus.</p>
+                </div>
+                <div class="col-lg-3 col-md-4 news-style">
+                    <h3>Title News</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, deleniti libero
+                        suscipit
+                        placeat enim ad eligendi culpa eum at modi, veniam incidunt esse atque similique, dolorum ipsa
+                        ducimus accusamus.</p>
+                </div>
+                <div class="col-lg-3 col-md-4 news-style">
+                    <h3>Title News</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, deleniti libero
+                        suscipit
+                        placeat enim ad eligendi culpa eum at modi, veniam incidunt esse atque similique, dolorum ipsa
+                        ducimus accusamus.</p>
+                </div>
+                <div class="col-lg-3 col-md-4 news-style">
+                    <h3>Title News</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, deleniti libero
+                        suscipit
+                        placeat enim ad eligendi culpa eum at modi, veniam incidunt esse atque similique, dolorum ipsa
+                        ducimus accusamus.</p>
+                </div>
+            </div>
+        </article>
+    </article>
+
+    <!-- GALLERY -->
+    <section>
+
+    </section>
+
+    <!-- HERO -->
+    <section class="container-fluid py-5 hero-style">
+        <div>
+            <h1 class="display-4 text-center text-white mb-4">Mensagem do dia</h1>
+        </div>
+        <div class="text-center">
+            <p class="text-white"> Não sabe o que fazer olhe para a cruz.</p>
+            <footer class="blockquote-footer text-white text-end"><cite> by Pr. Naor Pedrosa</cite></footer>
+        </div>
+    </section>
+
+    <!-- MENSAGEM -->
+    <div class="container-fluid mb-0 mensagem-style">
+        <p class="display-4 text-center text-white text-center mb-0 pb-4"> Visão </p>
+    </div>
+    <section class="mensagem-style">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-start">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="icons/bible.svg">
+                    <p class="pt-2 text-white">Nosso encargo é edificar uma igreja de vencedores, onde cada membro é um
+                        ministro e cada casa uma extensão da igreja, conquistando, assim, a geração para Cristo,
+                        através das células que se multiplicam uma vez ao ano.
+                        Este é o nosso slogan, a nossa declaração de propósito.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="icons/mission.svg">
+                    <p class="pt-2 text-white">A nossa missão
+                        Conquistar a nossa geração, a nossa cidade e a nossa nação através da pregação e da vivência
+                        integral do Evangelho de Cristo, por meio da multiplicação anual das células.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="icons/objetive.svg">
+                    <p class="pt-2 text-white">A igreja é composta e edificada através de discípulos. Não recrutamos
+                        membros, mas fazemos discípulos que serão agentes de transformação e de conquista da nossa
+                        geração para Deus. Onde eles estiverem, ali estará uma igreja atuando e cumprindo o propósito
+                        de expansão do Reino de Deus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <div class="container-fluid newsletter-style">
+        <div class="row d-flex justify-content-center align-items-center flex-column">
+            <div class="text-center">
+                <h2 class="display-5"> Newsletter Videira Palmas </h2>
+                <p> Receba palavras e informativos diretamente no seu email.</p>
+            </div>
+
+            <form>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="E-mail">
+                    <div class="input-group-btn input-group-lg">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button">
+                                Enviar
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-2 col-md-6 col-sm-12 text-sm-center text-md-center text-lg-left pb-md-2">
+                    <h4 class="h6">MAIS INFORMAÇÕES</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="">Pastores</a></li>
+                        <li><a href="">Redes</a></li>
+                        <li><a href="">Mapa de Células</a></li>
+                        <li><a href="">Conheça Palmas-TO</a></li>
+                        <li><a href="">Infraestrutura</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 text-sm-center text-md-center text-lg-left pb-md-2">
+                    <h4 class="h6">CONTATOS</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="">Grupos</a></li>
+                        <li><a href="">Mensagens</a></li>
+                        <li><a href="">Números</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center text-md-left text-lg-left">
+                    <h4 class="h6">LOCALIZAÇÃO E MAIS</h4>
+                    <ul class="list-unstyled text-secondary">
+                        <li>Quadra 108 Sul Avenida LO 3 Alameda 2 Lote 4</li>
+                        <li>Plano Diretor Sul</li>
+                        <li>Palmas, TO 77.020-098</li>
+                        <li>videirasecretaria@gmail.com</li>
+                        <li>Tel: (63) 3215-7400</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-md-center text-lg-right text-sm-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.8656143159183!2d-48.32053418520431!3d-10.191567092719975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9324cb5a92aaaaa9%3A0x5be87f053f9eac82!2sIgreja+Videira+de+Palmas!5e0!3m2!1spt-BR!2sbr!4v1544377560454"
+                        frameborder="0" style="border:0"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- COPYRIGHT -->
+    <footer class="bg-dark pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                    <ul class="list-unstyled d-flex m-0">
+                        <li><a class="btn btn-outline-secondary mx-1 my-sm-1" style="max-width: 200px;" href="">Facebook</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-sm-1" style="max-width: 200px;" href="">Twitter</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-sm-1" style="max-width: 200px;" href="">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center justify-content-lg-end">
+                    <h6 class="text-white border rounded p-2 m-0"> <em> Produzido por Suélio Moura</em></h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 bg-primary text-center text-white py-2 align-items-center">
+                    <p class="mb-0">Videira Palmas - Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

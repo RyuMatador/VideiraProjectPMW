@@ -1,0 +1,116 @@
+/* ======== RESET OR NORMALIZE ======== */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 60px;
+}
+
+/* ======== NAVIGATION ======== */
+.navbar-style {
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    background: linear-gradient(to right, #2657eb, #de6161);
+}
+
+.navbar-style img {
+    height: 2.5em;
+}
+
+.navbar-style li a {
+    color: white;
+}
+.nav-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 
+                0 4px 8px rgba(0, 0, 0, 0.05)
+}
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+/* ======== CAROUSSEL ========= */
+.carousel-style {
+    padding-left: 0px;
+    padding-right: 0px;   
+}
+
+.carousel-sides {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-repeat: repeat;
+    background-clip: content-box;
+    background-size: 3em;
+    opacity: 0.5;
+    mask: white;
+}
+
+/* ======== NEWS ===============*/
+.news-total-style {
+    background-color: whitesmoke;
+}
+
+.news-style {
+    height: 20em;
+    background-color: whitesmoke;
+}
+/* ======== GALLERY ============*/
+
+
+/* ======== HERO ===============*/
+.hero-style {
+    background: url(imgs/bg-uvas.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    content:'\A';
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.hero-style:after {
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2;
+    content: "";
+}
+
+.hero-style a {
+    position: relative;
+    z-index:10;
+}
+
+/* ======== MENSAGEM ===========*/
+.mensagem-style {
+    background-color: cornflowerblue;
+}
+
+.mensagem-style img{
+    height: 6em;
+}
+
+/* ======== NEWSLETTER =========*/
+.newsletter-style {
+    background-color: darkgray;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 2em
+}
+/* ======== FOOTER =============*/
+
+/* ======== COPYRIGHT ==========*/
+
+/* ======== MEDIA ==============*/
+@media (max-width: 768px) {
+    body {
+        padding-top: 0px;
+    }
+    .fixed-top {
+        position: relative;
+    }
+}
