@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-md nav-shadow fixed-top m-0 py-0 navbar-style">
         <a href="index.html" class="navbar-brand">
@@ -43,6 +44,45 @@
             </ul>
         </div>
     </nav>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cadastro - Novo Membro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Nome</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">Enviaremos mensagem para você.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Número de celular</label>
+                            <input type="number" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Maior de idade</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- CAROUSSEL -->
     <section class="container-fluid">
@@ -120,8 +160,30 @@
     </article>
 
     <!-- GALLERY -->
-    <section>
-
+    <section class="gallery-style py-2">
+        <section class="container">
+            <div class="text-lg-left text-md-center py-3">
+                <h1 class="display-4 d-block">Galeria Videira</h1>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                </div>
+                <div class="col-md">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                </div>
+                <div class="col-md">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                    <img src="imgs/img-exemplo.png" class="img-fluid mb-4">
+                </div>
+            
+            </div>
+        </section>
     </section>
 
     <!-- HERO -->
@@ -193,17 +255,17 @@
     <footer class="bg-dark text-white">
         <div class="container py-4">
             <div class="row">
-                <div class="col-lg-2 col-md-6 col-sm-12 text-sm-center text-md-center text-lg-left pb-md-2">
+                <div class="col-lg-2 col-md-6 col-sm-12 text-center text-lg-left pb-2">
                     <h4 class="h6">MAIS INFORMAÇÕES</h4>
                     <ul class="list-unstyled">
                         <li><a href="">Pastores</a></li>
                         <li><a href="">Redes</a></li>
                         <li><a href="">Mapa de Células</a></li>
                         <li><a href="">Conheça Palmas-TO</a></li>
-                        <li><a href="">Infraestrutura</a></li>
+                        <li><a href="" data-toggle="modal" data-target="#exampleModal">Cadastro</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-12 text-sm-center text-md-center text-lg-left pb-md-2">
+                <div class="col-lg-2 col-md-6 col-sm-12 text-center text-lg-left pb-2">
                     <h4 class="h6">CONTATOS</h4>
                     <ul class="list-unstyled">
                         <li><a href="">Grupos</a></li>
@@ -211,7 +273,7 @@
                         <li><a href="">Números</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 text-sm-center text-md-left text-lg-left">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center text-md-left">
                     <h4 class="h6">LOCALIZAÇÃO E MAIS</h4>
                     <ul class="list-unstyled text-secondary">
                         <li>Quadra 108 Sul Avenida LO 3 Alameda 2 Lote 4</li>
@@ -221,7 +283,7 @@
                         <li>Tel: (63) 3215-7400</li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 text-md-center text-lg-right text-sm-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 justify-content-sm-center text-lg-right text-center">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.8656143159183!2d-48.32053418520431!3d-10.191567092719975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9324cb5a92aaaaa9%3A0x5be87f053f9eac82!2sIgreja+Videira+de+Palmas!5e0!3m2!1spt-BR!2sbr!4v1544377560454"
                         frameborder="0" style="border:0"></iframe>
                 </div>
@@ -232,11 +294,11 @@
     <footer class="bg-dark pb-2">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12 d-flex justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                <div class="col-md-6 col-sm-12 d-flex justify-content-center justify-content-lg-start">
                     <ul class="list-unstyled d-flex m-0">
-                        <li><a class="btn btn-outline-secondary mx-1 my-sm-1" style="max-width: 200px;" href="">Facebook</a></li>
-                        <li><a class="btn btn-outline-secondary mx-1 my-sm-1" style="max-width: 200px;" href="">Twitter</a></li>
-                        <li><a class="btn btn-outline-secondary mx-1 my-sm-1" style="max-width: 200px;" href="">Instagram</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-1" style="max-width: 200px;" href="">Facebook</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-1" style="max-width: 200px;" href="">Twitter</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-1" style="max-width: 200px;" href="">Instagram</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center justify-content-lg-end">
@@ -249,7 +311,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 bg-primary text-center text-white py-2 align-items-center">
-                    <p class="mb-0">Videira Palmas - Todos os direitos reservados</p>
+                    <p class="mb-0">Videira Palmas 2019 © - Todos os direitos reservados</p>
                 </div>
             </div>
         </div>
