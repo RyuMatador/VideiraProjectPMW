@@ -1,5 +1,6 @@
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
+
 @font-face{
     font-family: 'OrangeJuice';
     src: url(fonts/orangejuice2.ttf);
@@ -18,7 +19,7 @@ body {
 }
 
 .navbar-style img {
-    height: 2.5em;
+    height: 3.5em;
 }
 
 .navbar-style li a {
