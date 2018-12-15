@@ -85,7 +85,10 @@ body {
     background-color: cornflowerblue;
 }
 
-.mensagem-style img{
+.mensagem-style svg{
+    position: relative;
+    display: block;
+    margin: 0 auto;
     height: 6em;
 }
 
