@@ -1,0 +1,77 @@
+/* ======== RESET OR NORMALIZE ======== */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 60px;
+}
+
+.navbar-style li a {
+    color: white;
+}
+
+/* ======== NAVIGATION ======== */
+.navbar-style {
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    background: linear-gradient(to right, #2657eb, #de6161);
+}
+
+.navbar-style img {
+    height: 3.5em;
+}
+
+.nav-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 
+                0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+/* ======== PRINCIPAL ===========*/
+.principal-style h1 {
+    color: rgb(80, 18, 250);
+}
+
+.principal-style h5 {
+    color:  rgb(80, 18, 250);
+}
+
+.card-header {
+    padding: .25rem .25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+}
+
+
+/* ======== NEWSLETTER =========*/
+.newsletter-style {
+    background-color: darkgray;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 2em
+}
+
+/* ======== FOOTER =============*/
+
+/* ======== COPYRIGHT ==========*/
+
+/* ======== MEDIA ==============*/
+@media (max-width: 768px) {
+    body {
+        padding-top: 0px;
+    }
+    .fixed-top {
+        position: relative;
+    }
+    .principal-style h1 {
+        font-size: 2em;
+    }
+    .principal-style h5 {
+        font-size: 1em;
+        color:  rgb(80, 18, 250);
+    }
+}
