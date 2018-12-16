@@ -1,5 +1,6 @@
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Jaldi:400,700');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -30,22 +31,20 @@ body {
     color: black;
 }
 /* ======== PRINCIPAL ===========*/
-.principal-style h1 {
-    color: rgb(80, 18, 250);
+.redes-style li {
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
 }
 
-.principal-style h5 {
-    color:  rgb(80, 18, 250);
+.redes-bg-style {
+    background-image: url("../imgs/palmas-imgs-2.jpg");
+    background-size: cover;
 }
 
-.card-header {
-    padding: .25rem .25rem;
-    margin-bottom: 0;
-    background-color: rgba(0,0,0,.03);
-    border-bottom: 1px solid rgba(0,0,0,.125);
-    border-radius: 0;
+.redes-style li:nth-child(2) {
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
-
 
 /* ======== NEWSLETTER =========*/
 .newsletter-style {
@@ -54,7 +53,6 @@ body {
     text-align: center;
     padding-top: 2em
 }
-
 /* ======== FOOTER =============*/
 
 /* ======== COPYRIGHT ==========*/

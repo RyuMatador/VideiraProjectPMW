@@ -54,9 +54,10 @@ body {
     background-color: whitesmoke;
 }
 
-.news-style {
+.news-total-style .news-style:nth-child(1) {
     height: 15em;
-    background-color: whitesmoke;
+    background-image: url("imgs/bg-uvas.jpg");
+    background-size: cover;
 }
 /* ======== GALLERY ============*/
 .gallery-style{
