@@ -1,4 +1,3 @@
-
     <?php get_header(); ?>
     <!-- CAROUSSEL -->
     <section class="container-fluid">
