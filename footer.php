@@ -37,15 +37,15 @@
             </div>
         </div>
     </footer>
-    <!-- COPYRIGHT -->
-    <footer class="bg-dark pb-2">
+     <!-- COPYRIGHT -->
+     <footer class="bg-dark pb-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12 d-flex justify-content-center justify-content-lg-start">
                     <ul class="list-unstyled d-flex m-0">
-                        <li><a class="btn btn-outline-secondary mx-1 my-1" style="max-width: 200px;" href="">Facebook</a></li>
-                        <li><a class="btn btn-outline-secondary mx-1 my-1" style="max-width: 200px;" href="">Twitter</a></li>
-                        <li><a class="btn btn-outline-secondary mx-1 my-1" style="max-width: 200px;" href="">Instagram</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-1 facebook-style" style="max-width: 200px;" href="https://pt-br.facebook.com/videirapalmas/">Facebook</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-1 twitter-style" style="max-width: 200px;" href="https://twitter.com/videirapalmas">Twitter</a></li>
+                        <li><a class="btn btn-outline-secondary mx-1 my-1 instagram-style" style="max-width: 200px;" href="https://www.instagram.com/videirapalmas/">Instagram</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center justify-content-lg-end">
@@ -58,7 +58,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 bg-primary text-center text-white py-2 align-items-center">
-                    <p class="mb-0">Videira Palmas 2019 © | Todos os alguns reservados</p>
+                    <p class="mb-0">Videira Palmas 2019 © | Todos os direitos reservados</p>
                 </div>
             </div>
         </div>
