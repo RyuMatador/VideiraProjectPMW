@@ -1,5 +1,6 @@
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?famlily=Jaldi');
 
 @font-face{
     font-family: 'OrangeJuice';
@@ -12,21 +13,29 @@ body {
 }
 ::selection {
     background-color: rgb(177, 118, 231);
-    border-radius: 50%;
     color:white;
-
 }
+
+a {
+    color: white;
+}
+a:hover {
+    text-decoration: transparent;
+    color: white;
+}
+.btn {
+    border-radius: 0 !important;
+}
+.input {
+    border-radius: 0 !important;
+}
+
 /* ======== NAVIGATION ======== */
 .navbar-style {
     background: #de6161;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2657eb, #de6161);
     background: linear-gradient(to right, #2657eb, #de6161);
 }
-
-.navbar-style img {
-    height: 3.5em;
-}
-
 .navbar-style li a {
     color: white;
 }
@@ -52,7 +61,6 @@ body {
     background-size: 3em;
     opacity: 0.5;
     mask: white;
-    box-shadow: inset 11px 0px 5em 0px rgba(0,0,0,0.75);
 }
 
 /* ======== NEWS ===============*/
@@ -60,11 +68,6 @@ body {
     background-color: whitesmoke;
 }
 
-.news-total-style .news-style:nth-child(1) {
-    height: 15em;
-    background-image: url("imgs/bg-uvas.jpg");
-    background-size: cover;
-}
 /* ======== GALLERY ============*/
 .gallery-style{
     background-color: whitesmoke;
@@ -104,19 +107,25 @@ body {
     padding-top: 2em
 }
 /* ======== FOOTER =============*/
+.instagram-style {
+    -webkit-transition: background 1s;
+    transition: background 1s ease-out;
+}
 .instagram-style:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    transition: ease-in;
-    transition-duration: 25ms;
+}
+.twitter-style {
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s ease-out;
 }
 .twitter-style:hover{
-    transition: ease-in;
-    transition-duration: 25ms;
     background-color: #00acee;
 }
-.facebook-style:hover{
-    transition: ease-in;
-    transition-duration: 25ms;
+.facebook-style {
+    -webkit-transition: background-color 1s; 
+    transition: background-color 1s ease-out;
+}
+.facebook-style:hover {
     background-color: #3b5998
 }
 
