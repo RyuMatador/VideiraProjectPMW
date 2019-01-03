@@ -11,14 +11,12 @@ body {
     font-family: 'Lato', sans-serif;
     padding-top: 40px;
 }
+
 ::selection {
     background-color: rgb(177, 118, 231);
     color:white;
 }
 
-a {
-    color: white;
-}
 a:hover {
     text-decoration: transparent;
     color: white;
