@@ -1,25 +1,16 @@
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?famlily=Jaldi');
-
-@font-face{
-    font-family: 'OrangeJuice';
-    src: url(fonts/orangejuice.ttf);
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    padding-top: 40px;
-}
-
-::selection {
-    background-color: rgb(177, 118, 231);
-    color:white;
-}
+@font-face{font-family: 'OrangeJuice';src: url(fonts/orangejuice.ttf);}
+::selection {background-color: rgb(177, 118, 231);color:white;}
 
 a:hover {
     text-decoration: transparent;
     color: white;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 40px;
 }
 .btn {
     border-radius: 0 !important;
@@ -106,22 +97,29 @@ a:hover {
 }
 /* ======== FOOTER =============*/
 .instagram-style {
-    -webkit-transition: background 1s;
-    transition: background 1s ease-out;
+    -webkit-transition: background-image background-size 1s;
+    -moz-transition: background-image background-size 1s;
+    transition: background-image background-size 1s;
+    max-width: 200px;
 }
 .instagram-style:hover {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background-image: url(icons/btn-background-instagram.jpg);
+    background-size: cover;
 }
 .twitter-style {
-    -webkit-transition: background-color 1s;
-    transition: background-color 1s ease-out;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    max-width: 200px;
 }
 .twitter-style:hover{
     background-color: #00acee;
 }
 .facebook-style {
-    -webkit-transition: background-color 1s; 
-    transition: background-color 1s ease-out;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    max-width: 200px;
 }
 .facebook-style:hover {
     background-color: #3b5998
