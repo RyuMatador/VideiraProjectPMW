@@ -54,7 +54,9 @@ body {
 
 /* ======== NEWS ===============*/
 .news-total-style {
-    background-color: whitesmoke;
+    background-image: url(imgs/blurred-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ======== GALLERY ============*/

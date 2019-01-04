@@ -38,41 +38,66 @@
         </div>
     </section>
 
-    <!-- NEWS -->
-    <article class="py-2 news-total-style">
-        <article class="container">
-            <div class="row d-flex justify-content-center pt-3"><a href="">
-                <div class="col-lg-3 col-md-4 news-style bg-white nav-shadow p-2 my-2 rounded">
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/palmas-imgs-1.jpg" class="img-fluid">
-                    <h3>Matrículas Abertas Cursão</h3>
-                    <p>Aprimore seus conhecimentos com o novo cursão.
-                       Todos os módulos serão ministrados pelo Pr. Mauro Estival.
-                       A todos os interessados clique aqui ou faça sua inscrição na secretaria
-                    </p></a>
+       <!-- NEWS -->
+       <article class="py-4 news-total-style">
+
+    <div class="text-center py-2">
+        <h1 class="display-5 d-block"> Últimas Notícias</h1>
+    </div>
+
+    <article class="container">
+        <div class="row align-items-stretch">
+
+            <div class="col-md-6">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-news.png" class="img-fluid rounded">
+            </div>
+
+            <div class="col-md-6">
+                <div class="container mt-3 mt-md-0">
+                    <div class="row">
+                        <div class="col-md-3 py-1 bg-white">
+                            <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid">
+                        </div>
+                        <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
+                        </div>
+                        <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
+                            Info...
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-4 news-style">
-                    <h3>Title News</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, deleniti libero
-                        suscipit
-                        placeat enim ad eligendi culpa eum at modi, veniam incidunt esse atque similique, dolorum ipsa
-                        ducimus accusamus.</p>
+
+                <div class="container my-2">
+                    <div class="row">
+                        <div class="col-md-3 py-1 bg-white">
+                            <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid"></div>
+                        <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
+                        </div>
+                        <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
+                            Info...
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-4 news-style">
-                    <h3>Title News</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, deleniti libero
-                        suscipit
-                        placeat enim ad eligendi culpa eum at modi, veniam incidunt esse atque similique, dolorum ipsa
-                        ducimus accusamus.</p>
-                </div>
-                <div class="col-lg-3 col-md-4 news-style">
-                    <h3>Title News</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur, deleniti libero
-                        suscipit
-                        placeat enim ad eligendi culpa eum at modi, veniam incidunt esse atque similique, dolorum ipsa
-                        ducimus accusamus.</p>
+
+                <div class="container my-2">
+                    <div class="row">
+                        <div class="col-md-3 py-1 bg-white">
+                            <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid">
+                        </div>
+                        <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
+                        </div>
+                        <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
+                            Info...
+                        </div>
+                    </div>
                 </div>
             </div>
-        </article>
+        </div>
+        </div>
+        </div>
+    </article>
     </article>
 
     <!-- GALLERY -->
