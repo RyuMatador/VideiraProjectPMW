@@ -167,8 +167,8 @@
             <!-- Elementos escondidos na redução da largura da página -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto text-center text-md-right">
-                    <li class="nav-item"><a href="<?php echo get_stylesheet_directory_uri()?>/index.php" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="<?php echo get_stylesheet_directory_uri()?>pags/sobre.php" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="/pags/page-sobre/" class="nav-link">Sobre</a></li>
                     <!-- Dropdown -->
                     <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink"
                             data-toggle="dropdown">Células</a>
@@ -178,8 +178,8 @@
                             <a class="dropdown-item" href="#">Rede Adolescentes</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a href="<?php echo get_stylesheet_directory_uri()?>/palavras.php" class="nav-link">Palavras</a></li>
-                    <li class="nav-item"><a href="<?php echo get_stylesheet_directory_uri()?>/contato.php" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">Palavras</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">Contato</a></li>
                 </ul>
             </div>
         </div>

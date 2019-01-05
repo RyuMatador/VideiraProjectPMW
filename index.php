@@ -38,59 +38,59 @@
         </div>
     </section>
 
-       <!-- NEWS -->
-       <article class="py-4 news-total-style">
+    <!-- NEWS -->
+    <article class="py-4 news-total-style">
 
     <div class="text-center py-2">
         <h1 class="display-5 d-block"> Últimas Notícias</h1>
     </div>
 
     <article class="container">
-        <div class="row align-items-stretch">
+        <div class="row align-items-center">
 
             <div class="col-md-6">
                 <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-news.png" class="img-fluid rounded">
             </div>
 
             <div class="col-md-6">
-                <div class="container mt-3 mt-md-0">
-                    <div class="row">
-                        <div class="col-md-3 py-1 bg-white">
-                            <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid">
-                        </div>
-                        <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
-                        </div>
-                        <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
-                            Info...
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container my-2">
-                    <div class="row">
-                        <div class="col-md-3 py-1 bg-white">
-                            <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid"></div>
-                        <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
-                        </div>
-                        <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
-                            Info...
+                    <div class="container mt-3 mt-md-0">
+                        <div class="row">
+                            <div class="col-md-3 py-1 bg-white">
+                                <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
+                            </div>
+                            <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
+                                Info...
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="container my-2">
-                    <div class="row">
-                        <div class="col-md-3 py-1 bg-white">
-                            <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid">
+                    <div class="container my-2">
+                        <div class="row">
+                            <div class="col-md-3 py-1 bg-white">
+                                <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid"></div>
+                            <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
+                            </div>
+                            <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
+                                Info...
+                            </div>
                         </div>
-                        <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
-                            adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
-                        </div>
-                        <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
-                            Info...
-                        </div>
+                    </div>
+
+                    <div class="container my-2">
+                        <div class="row">
+                            <div class="col-md-3 py-1 bg-white">
+                                <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-7 py-1 bg-secondary"> Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Maiores esse ratione, aperiam placeat voluptatem alias.
+                            </div>
+                            <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
+                                Info...
+                            </div>
                     </div>
                 </div>
             </div>
@@ -103,21 +103,22 @@
     <!-- GALLERY -->
     <section class="gallery-style py-2">
         <section class="container">
-            <div class="text-center text-md-left py-3">
+            <div class="text-center py-3">
                 <h1 class="display-5 d-block">Galeria Videira</h1>
             </div>
             <div class="row">
-                <div class="col-md">
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
-                </div>
-                <div class="col-md">
-                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
+                <div class="col-sm-6 col-md-4">
                     <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
                     <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
                 </div>
-            </div>
+                <div class="col-sm-6 col-md-4 d-sm-none d-md-block">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid rounded mb-4">
+                </div>
         </section>
     </section>
 

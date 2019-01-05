@@ -75,12 +75,18 @@ body {
     background-size: 100%;
     z-index: 1;
     box-shadow: inset 0px 0px 200px 32px rgba(0,0,0,0.75);
+
 }
 
-
+/* ======== EVENTOS ===============*/
+.eventos-style {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);  
+}
 /* ======== MENSAGEM ===========*/
 .mensagem-style {
+    margin-top: -20px;
     background-color: cornflowerblue;
+    clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);   
 }
 
 .mensagem-style svg{
