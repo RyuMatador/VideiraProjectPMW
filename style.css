@@ -144,3 +144,13 @@ body {
         position: relative;
     }
 }
+
+/* ======== PRINCIPAL ===========*/
+/*      Estilo da pagina sobre   */
+.principal-style h1 {
+    color: rgb(80, 18, 250);
+}
+
+.principal-style h5 {
+    color:  rgb(80, 18, 250);
+}

@@ -6,7 +6,7 @@
                     <h4 class="h6">MAIS INFORMAÇÕES</h4>
                     <ul class="list-unstyled">
                         <li><a href="">Pastores</a></li>
-                        <li><a href="<?php echo get_stylesheet_directory_uri()?>/pags/redes.php">Redes</a></li>
+                        <li><a href="/redes/">Redes</a></li>
                         <li><a href="">Mapa de Células</a></li>
                         <li><a href="">Instituto</a></li>
                         <li><a href="" data-toggle="modal" data-target="#exampleModal">Cadastro</a></li>
@@ -49,7 +49,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center justify-content-lg-end">
-                    <h6 class="text-white border rounded p-2 m-0"> <em> Produzido por Suélio Moura</em></h6>
+                    <h6 class="text-white border rounded p-2 m-0"> <em> Produzido por Equipe de Mídia</em></h6>
                 </div>
             </div>
         </div>
@@ -58,7 +58,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 bg-primary text-center text-white py-2 align-items-center">
-                    <p class="mb-0">Videira Palmas 2019 © | Todos os direitos reservados</p>
+                    <p class="mb-0">Videira Palmas 2019 © | Igreja em células</p>
                 </div>
             </div>
         </div>
