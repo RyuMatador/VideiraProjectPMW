@@ -49,7 +49,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex align-items-center justify-content-center justify-content-lg-end">
-                    <h6 class="text-white border rounded p-2 m-0"> <em> Produzido por Equipe de Mídia</em></h6>
+                    <h6 class="text-white border p-2 m-0"> <em> Produzido por Equipe de Mídia</em></h6>
                 </div>
             </div>
         </div>
