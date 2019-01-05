@@ -1,6 +1,5 @@
-    <?php 
-    //Template Name: Home
-    get_header(); ?>
+    <?php /*Template Name: Home*/ get_header(); ?>
+    
     <!-- CAROUSSEL -->
     <section class="container-fluid">
         <div class="row">
@@ -39,6 +38,44 @@
             <div class="col-lg-1 carousel-sides bg-dark d-none d-md-block"></div>
         </div>
     </section>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cadastro - Novo Membro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Nome</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">Enviaremos mensagem para você.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Número de celular</label>
+                            <input type="number" class="form-control" placeholder="(99) 99999 9999" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Maior de idade</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- NEWS -->
     <article class="py-4 news-total-style">
@@ -93,10 +130,10 @@
                             <div class="col-md-2 py-1 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
                                 Info...
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         </div>
     </article>
@@ -169,11 +206,12 @@
               </table>
         </section>
     </section>
+
     <!-- MENSAGEM -->
     <div class="container-fluid py-4 mb-0 mensagem-style">
-        <p class="display-4 text-center text-white text-center mb-0 pb-4"> Fundamentos </p>
+        <h1 class="display-5 text-center text-white text-center mb-0 pb-4"> Fundamentos </h1>
     </div>
-    <section class="mensagem-style">
+    <section class="mensagem-style pt-1">
         <div class="container">
             <div class="row d-flex justify-content-center align-items-start">
                 <div class="col-lg-4 col-md-6 text-center" >

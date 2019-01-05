@@ -167,19 +167,19 @@
             <!-- Elementos escondidos na redução da largura da página -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto text-center text-md-right">
-                    <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="/home/" class="nav-link">Inicio</a></li>
                     <li class="nav-item"><a href="/sobre/" class="nav-link">Sobre</a></li>
                     <!-- Dropdown -->
-                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink"
+                    <li class="nav-item dropdown"><a href="/404-2/" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink"
                             data-toggle="dropdown">Células</a>
                         <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="#">Rede Jovens</a>
-                            <a class="dropdown-item" href="#">Rede Casais</a>
-                            <a class="dropdown-item" href="#">Rede Adolescentes</a>
+                            <a class="dropdown-item" href="/404-2/">Rede Jovens</a>
+                            <a class="dropdown-item" href="/404-2/">Rede Casais</a>
+                            <a class="dropdown-item" href="/404-2/">Rede Adolescentes</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a href="/" class="nav-link">Palavras</a></li>
-                    <li class="nav-item"><a href="/" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="/404-2/" class="nav-link">Palavras</a></li>
+                    <li class="nav-item"><a href="/404-2/" class="nav-link">Contato</a></li>
                 </ul>
             </div>
         </div>
