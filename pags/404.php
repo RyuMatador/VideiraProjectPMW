@@ -1,4 +1,6 @@
+<!-- HEADER -->
 <?php /*Template Name: 404*/ get_header(); ?>
+
 <div class="container text-center principal-style pt-5">
     <?xml version="1.0" encoding="iso-8859-1"?>
     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -39,6 +41,7 @@
         <rect x="247.469" y="145.049" width="17.067" height="85.333"/>
         <rect x="247.469" y="247.449" width="17.067" height="17.067"/>
     </svg>
+    
     <h1 class="display-5 pt-4" style="color: rgb(80, 18, 250);">Not found</h1>
     <p class="h4 text-center">Página em construção ou manutenção.</p>
 

@@ -1,6 +1,6 @@
-<?php
-//Template Name: Sobre
-get_header(); ?>
+<!--HEADER-->
+<?php /*Template Name: Sobre*/ get_header(); ?>
+
     <!-- MODAL -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -147,7 +147,7 @@ get_header(); ?>
                 <div class="card">
                     <div class="card-header">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse06">
-                            <h5 class="mb-0"> 5. Ascensão </h5>
+                            <h5 class="mb-0"> 6. Ascensão </h5>
                         </button>
                     </div>
 
@@ -351,4 +351,6 @@ get_header(); ?>
             </form>
         </div>
     </div>
+
+    <!--FOOTER-->
     <?php get_footer(); ?>

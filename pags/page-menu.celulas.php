@@ -1,6 +1,6 @@
-<?php
-//Template Name: Celulas Principal
-?>
-<?php get_header(); ?>
-    
+<!-- HEADER -->
+<?php /*Template Name: Menu Células*/ get_header(); ?>
+ 
+
+<!--FOOTER-->
 <?php get_footer(); ?>
