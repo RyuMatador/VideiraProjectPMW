@@ -79,18 +79,16 @@
 
     <!-- NEWS -->
     <article class="py-4 news-total-style">
-
-    <div class="text-center py-2">
-        <h1 class="display-5 d-block"> Últimas Notícias</h1>
-    </div>
+        <div class="text-center py-2">
+            <h1 class="display-5 d-block"> Últimas Notícias</h1>
+        </div>
 
     <article class="container">
         <div class="row align-items-center">
-
             <div class="col-md-6">
-                <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-news.png" class="img-fluid rounded">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-news.png" class="img-fluid">
             </div>
-
+            
             <div class="col-md-6">
                     <div class="container mt-3 mt-md-0">
                         <div class="row">

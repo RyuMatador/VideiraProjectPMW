@@ -3,14 +3,26 @@
 @import url('https://fonts.googleapis.com/css?famlily=Jaldi');
 @font-face{font-family: 'OrangeJuice';src: url(fonts/orangejuice.ttf);}
 ::selection {background-color: rgb(177, 118, 231);color:white;}
-
+a {
+    color: initial;
+}
 a:hover {
     text-decoration: transparent;
-    color: white;
+    color: initial;
 }
 body {
     font-family: 'Lato', sans-serif;
     padding-top: 40px;
+}
+.card {
+    border-radius: 0 !important;
+    border: 0px;
+}
+.card-body {
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+    position: relative;
+    top: -2em;;
 }
 .btn {
     border-radius: 0 !important;

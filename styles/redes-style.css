@@ -1,14 +1,22 @@
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Jaldi:400,700');
+@import url('https://fonts.googleapis.com/css?famlily=Jaldi');
+@font-face{font-family: 'OrangeJuice';src: url(fonts/orangejuice.ttf);}
+::selection {background-color: rgb(177, 118, 231);color:white;}
 
+a:hover {
+    text-decoration: transparent;
+    color: white;
+}
 body {
     font-family: 'Lato', sans-serif;
-    padding-top: 60px;
+    padding-top: 40px;
 }
-
-.navbar-style li a {
-    color: white;
+.btn {
+    border-radius: 0 !important;
+}
+.input {
+    border-radius: 0 !important;
 }
 
 /* ======== NAVIGATION ======== */
@@ -17,29 +25,76 @@ body {
     background: -webkit-linear-gradient(to right, #2657eb, #de6161);
     background: linear-gradient(to right, #2657eb, #de6161);
 }
-
-.navbar-style img {
-    height: 3.5em;
+.navbar-style li a {
+    color: white;
 }
-
 .nav-shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 
-                0 4px 8px rgba(0, 0, 0, 0.05);
+                0 4px 8px rgba(0, 0, 0, 0.05)
 }
-
 .dropdown-menu .dropdown-item {
     color: black;
 }
-/* ======== PRINCIPAL ===========*/
-.redes-style li {
-    padding-bottom: 1em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+
+/* ======== CAROUSSEL ========= */
+.carousel-style {
+    padding-left: 0px;
+    padding-right: 0px;   
 }
 
+.carousel-sides {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-repeat: repeat;
+    background-clip: content-box;
+    background-size: 3em;
+    opacity: 0.5;
+    mask: white;
+}
 
-.redes-style li:nth-child(2) {
-    padding-bottom: 1em;
-    padding-top: 1em;
+/* ======== NEWS ===============*/
+.news-total-style {
+    background-image: url(imgs/blurred-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ======== GALLERY ============*/
+.gallery-style{
+    background-color: whitesmoke;
+}
+.gallery-style h1 {
+    font-family: 'OrangeJuice', sans-serif;
+}
+/* ======== HERO ===============*/
+.hero-style {
+    background: url(imgs/bg-uvas.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+    /*box-shadow: inset 0px 0px 200px 32px rgba(0,0,0,0.75);*/
+
+}
+
+/* ======== EVENTOS ===============*/
+.eventos-style {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);  
+}
+/* ======== MENSAGEM ===========*/
+.mensagem-style {
+    margin-top: -20px;
+    background-color: cornflowerblue;  
+}
+
+.mensagem-style svg{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    height: 6em;
 }
 
 /* ======== NEWSLETTER =========*/
@@ -50,6 +105,34 @@ body {
     padding-top: 2em
 }
 /* ======== FOOTER =============*/
+.instagram-style {
+    -webkit-transition: background-image background-size 1s;
+    -moz-transition: background-image background-size 1s;
+    transition: background-image background-size 1s;
+    max-width: 200px;
+}
+.instagram-style:hover {
+    background-image: url(icons/btn-background-instagram.jpg);
+    background-size: cover;
+}
+.twitter-style {
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    max-width: 200px;
+}
+.twitter-style:hover{
+    background-color: #00acee;
+}
+.facebook-style {
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+    max-width: 200px;
+}
+.facebook-style:hover {
+    background-color: #3b5998
+}
 
 /* ======== COPYRIGHT ==========*/
 
@@ -61,11 +144,14 @@ body {
     .fixed-top {
         position: relative;
     }
-    .principal-style h1 {
-        font-size: 2em;
-    }
-    .principal-style h5 {
-        font-size: 1em;
-        color:  rgb(80, 18, 250);
-    }
+}
+
+/* ======== PRINCIPAL ===========*/
+/*      Estilo da pagina sobre   */
+.principal-style h1 {
+    color: rgb(80, 18, 250);
+}
+
+.principal-style h5 {
+    color:  rgb(80, 18, 250);
 }
