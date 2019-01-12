@@ -1,13 +1,13 @@
 <!-- HEADER -->
 <?php /*Template Name: Redes*/ get_header(); ?>
 
-    <!-- MODAL -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<!-- MODAL -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Cadastro - Novo Membro</h5>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cadastro - Novo Membro</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -47,7 +47,7 @@
 
             <div class="row">
                 <div class="col-sm-12 col-md-4 pb-2">
-                    <div class="bg-success rounded p-2 nav-shadow | redes-style |" data-toggle="tooltip" title="Rede Sião" data-placement="top">
+                    <div class="bg-success rounded p-2 nav-shadow redes-style" data-toggle="tooltip" title="Rede Sião" data-placement="top">
                         <h2 class="text-white">Rede Jovens</h2>
                         <ul class="list-unstyled">
                             <li>Jovens comprometidos com o mover e a obra.</li>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pb-2">
-                    <div class="bg-warning rounded p-2 nav-shadow | redes-style | ">
+                    <div class="bg-warning rounded p-2 nav-shadow redes-style">
                         <h2 class="text-white">Rede Adolescentes</h2>
                         <ul class="list-unstyled">
                             <li>Jovens comprometidos com o mover e a obra.</li>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 pb-2">
-                    <div class="bg-danger rounded p-2 nav-shadow | redes-style | ">
+                    <div class="bg-danger rounded p-2 nav-shadow redes-style">
                         <h2 class="text-white">Rede Casais</h2>
                         <ul class="list-unstyled">
                             <li>Jovens comprometidos com o mover e a obra.</li>
@@ -81,7 +81,7 @@
     </section>
 
     <!-- NEWSLETTER -->
-    <div class="container-fluid | newsletter-style |">
+    <div class="container-fluid newsletter-style">
         <div class="row d-flex justify-content-center align-items-center flex-column">
             <div class="text-center">
                 <h2 class="display-5"> Newsletter Videira Palmas </h2>
@@ -103,5 +103,5 @@
         </div>
     </div>
     
-    <!--FOOTER-->
-    <?php get_footer(); ?>
+<!--FOOTER-->
+<?php get_footer(); ?>

@@ -12,12 +12,17 @@ body {
     font-family: 'Lato', sans-serif;
     padding-top: 40px;
 }
-.btn {
+.card {
     border-radius: 0 !important;
+    border: 0px;
 }
-.input {
-    border-radius: 0 !important;
+.card-body {
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+    position: relative;
+    top: -2em;;
 }
+
 
 /* ======== NAVIGATION ======== */
 .navbar-style {
@@ -146,6 +151,28 @@ body {
     }
 }
 
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
 /* ======== PRINCIPAL ===========*/
 /*      Estilo da pagina sobre   */
 .principal-style h1 {
@@ -155,3 +182,4 @@ body {
 .principal-style h5 {
     color:  rgb(80, 18, 250);
 }
+

@@ -175,7 +175,19 @@
                 <h1 class="display-5 d-block">Galeria Videira</h1>
             </div>
             <div class="row">
-                <?php the_field('galeria'); ?>
+            <?php 
+                $images = get_field('galeria');
+                $size = 'full'; // (thumbnail, medium, large, full or custom size)
+
+                if( $images ): ?>
+                    <ul>
+                        <?php foreach( $images as $image ): ?>
+                            <li>
+                                <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
             </div>
         </section>
     </section>
