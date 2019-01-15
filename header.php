@@ -172,10 +172,10 @@
                     <!-- Dropdown -->
                     <li class="nav-item dropdown"><a href="/404-2/" class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink"
                             data-toggle="dropdown">Células</a>
-                        <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="/404-2/">Rede Jovens</a>
-                            <a class="dropdown-item" href="/404-2/">Rede Casais</a>
-                            <a class="dropdown-item" href="/404-2/">Rede Adolescentes</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item d-block" href="/404-2/">Rede Jovens</a>
+                            <a class="dropdown-item d-block" href="/404-2/">Rede Casais</a>
+                            <a class="dropdown-item d-block" href="/404-2/">Rede Adolescentes</a>
                         </div>
                     </li>
                     <li class="nav-item"><a href="/menu-palavras/" class="nav-link">Palavras</a></li>

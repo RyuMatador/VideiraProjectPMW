@@ -58,7 +58,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 bg-primary text-center text-white py-2 align-items-center">
-                    <p class="mb-0">Videira Palmas 2019 © | Igreja em células</p>
+                    <p class="mb-0"><?php bloginfo('name')?> | Igreja em células</p>
                 </div>
             </div>
         </div>

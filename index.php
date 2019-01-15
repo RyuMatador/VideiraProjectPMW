@@ -1,5 +1,6 @@
 <?php /*Template Name: Home*/ get_header(); ?>
-    
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	    
     <!-- CAROUSSEL -->
     <section class="container-fluid">
         <div class="row">
@@ -86,14 +87,13 @@
 
         <article class="container">
             <div class="row align-items-start">
-
                 <div class="col-md-6">
-                    <a href="">
+                    <a href="<?php the_field('link_noticia_principal')?>">
                         <div class="card h-100 d-flex flex-column">
-                            <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/img-exemplo.png" class="img-fluid">
+                            <img src="<?php the_field('imagem_noticia_principal');?>" class="img-fluid">
                             <div style="position: relative; top: -100%;">
-                                <p class="h5 text-white text-truncate py-3 px-1 my-0" style="background-color: rgba(0, 0, 0, 0.8);">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                <p class="h5 text-white py-3 px-1 my-0" style="background-color: rgba(0, 0, 0, 0.8);">
+                                    <?php the_field('titulo_noticia_principal')?>
                                 </p>
                             </div>
                         </div>
@@ -101,14 +101,14 @@
                 </div>
 
                 <div class="col-md-6">
-                    <a href="">
+                    <a href="<?php the_field('link_primeira_noticia')?>">
                         <div class="container my-2 mt-md-0">
                             <div class="row">
-                                <div class="col-3 bg-white d-flex align-items-center">
-                                    <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid"></div>
+                                <div class="col-3 bg-white d-flex align-items-center p-0 img-formatation">
+                                    <img src="<?php the_field('imagem_primeira_noticia')?>" class="img-fluid "></div>
                                 <div class="col-7 bg-secondary d-flex align-items-center">
-                                    <p class="h6 text-truncate text-white">
-                                        Lorem ipsum dolor, sit amet.
+                                    <p class="h5 text-white">
+                                        <?php the_field('titulo_primeira_noticia')?>
                                     </p>
                                 </div>
                                 <div class="col-2 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
@@ -122,13 +122,16 @@
                         </div>
                     </a>
 
-                    <a href="">
-                        <div class="container my-2">
+
+                    <a href="<?php the_field('link_segunda_noticia')?>">
+                        <div class="container my-2 mt-md-0">
                             <div class="row">
-                                <div class="col-3 bg-white d-flex align-items-center">
-                                    <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid"></div>
+                                <div class="col-3 bg-white d-flex align-items-center p-0 img-formatation">
+                                    <img src="<?php the_field('imagem_segunda_noticia')?>" class="img-fluid "></div>
                                 <div class="col-7 bg-secondary d-flex align-items-center">
-                                    <p class="h6 text-truncate text-white">Lorem ipsum dolor, sit amet.</p>
+                                    <p class="h5 text-white">
+                                        <?php the_field('titulo_segunda_noticia')?>
+                                    </p>
                                 </div>
                                 <div class="col-2 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
                                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 32 32" style=" fill:white;">
@@ -141,20 +144,18 @@
                         </div>
                     </a>
 
-                    <a href="">
-                        <div class="container my-2">
+                    <a href="<?php the_field('link_terceira_noticia')?>">
+                        <div class="container my-2 mt-md-0">
                             <div class="row">
-                                <div class="col-3 bg-white d-flex align-items-center">
-                                    <img src="<?php echo get_stylesheet_directory_uri()?>/icons/logo-videira-color.png" class="img-fluid">
-                                </div>
+                                <div class="col-3 bg-white d-flex align-items-center p-0 img-formatation">
+                                    <img src="<?php the_field('imagem_terceira_noticia')?>" class="img-fluid "></div>
                                 <div class="col-7 bg-secondary d-flex align-items-center">
-                                    <p class="h6 text-truncate text-white"> Lorem ipsum dolor, sit amet. Lorem ipsum
-                                        dolor sit, amet consectetur adipisicing elit. Quidem, consequuntur. Sapiente
-                                        dolores commodi iusto, deleniti reiciendis natus non fugit perferendis minus.
-                                        Tempore laudantium vero nesciunt, culpa in nostrum dignissimos cumque.</p>
+                                    <p class="h5 text-white">
+                                        <?php the_field('titulo_terceira_noticia')?>
+                                    </p>
                                 </div>
                                 <div class="col-2 text-white d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.8);">
-                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 32 32" style=" fill: white;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 32 32" style=" fill:white;">
                                         <g id="surface1">
                                             <path style=" " d="M 16 3 C 8.832031 3 3 8.832031 3 16 C 3 23.167969 8.832031 29 16 29 C 23.167969 29 29 23.167969 29 16 C 29 8.832031 23.167969 3 16 3 Z M 16 5 C 22.085938 5 27 9.914063 27 16 C 27 22.085938 22.085938 27 16 27 C 9.914063 27 5 22.085938 5 16 C 5 9.914063 9.914063 5 16 5 Z M 15 10 L 15 15 L 10 15 L 10 17 L 15 17 L 15 22 L 17 22 L 17 17 L 22 17 L 22 15 L 17 15 L 17 10 Z "></path>
                                         </g>
@@ -169,26 +170,25 @@
     </article>
 
     <!-- GALLERY -->
-    <section class="gallery-style py-2">
+    <section class=" py-2 gallery-style">
         <section class="container">
             <div class="text-center py-3">
                 <h1 class="display-5 d-block">Galeria Videira</h1>
+                <p class="h6 font-italic">Conferência Vinha 2018</p>
             </div>
             <div class="row">
-            <?php 
-                $images = get_field('galeria');
-                $size = 'full'; // (thumbnail, medium, large, full or custom size)
-
-                if( $images ): ?>
-                    <ul>
-                        <?php foreach( $images as $image ): ?>
-                            <li>
-                                <?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
-                <?php endif; ?>
-            </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/imgs-conferencia-2018/img1.webp" class="img-fluid rounded mb-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/imgs-conferencia-2018/img2.webp" class="img-fluid rounded mb-4">
+                </div>
+                <div class="col-sm-6 col-md-4 d-none d-md-block">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/imgs-conferencia-2018/img3.webp" class="img-fluid rounded mb-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/imgs-conferencia-2018/img4.webp" class="img-fluid rounded mb-4">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/imgs-conferencia-2018/img5.webp" class="img-fluid rounded mb-4">
+                    <img src="<?php echo get_stylesheet_directory_uri()?>/imgs/imgs-conferencia-2018/img6.webp" class="img-fluid rounded mb-4">
+                </div>
         </section>
     </section>
 
@@ -292,5 +292,8 @@
             </form>
         </div>
     </div>
-    
+
+    <?php endwhile; else: ?>
+    <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+    <?php endif; ?>
 <?php get_footer(); ?>

@@ -1,22 +1,24 @@
+/*
+Theme Name: Videira Palmas
+Theme URI: http://videirapalmas-test.ml
+Author: Equipe de Mídia
+Description: Tema criado para VideiraPalmas por Equipe de Mídia.
+Version: 1.0
+*/
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?famlily=Jaldi');
 @font-face{font-family: 'OrangeJuice';src: url(fonts/orangejuice.ttf);}
 ::selection {background-color: rgb(177, 118, 231);color:white;}
 
-a:hover {
-    text-decoration: transparent;
-    color: white;
-}
 body {
     font-family: 'Lato', sans-serif;
-    padding-top: 40px;
 }
-.card {
+.news-total-style .card {
     border-radius: 0 !important;
     border: 0px;
 }
-.card-body {
+.news-total-style .card-body {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 5;
     position: relative;
@@ -64,12 +66,18 @@ body {
     background-size: cover;
 }
 
+.img-formatation {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* ======== GALLERY ============*/
 .gallery-style{
     background-color: whitesmoke;
 }
 .gallery-style h1 {
     font-family: 'OrangeJuice', sans-serif;
+    font-size: 3em;
 }
 /* ======== HERO ===============*/
 .hero-style {
@@ -151,30 +159,29 @@ body {
     }
 }
 
-html {
+/* ======== PÁGINA SOBRE - PRINCIPAL ===========*/
+h5 {
     font-size: 1rem;
-  }
+}
   
   @include media-breakpoint-up(sm) {
-    html {
+    h5 {
       font-size: 1.2rem;
     }
   }
   
   @include media-breakpoint-up(md) {
-    html {
+    h5 {
       font-size: 1.4rem;
     }
   }
   
   @include media-breakpoint-up(lg) {
-    html {
+    h5 {
       font-size: 1.6rem;
     }
   }
 
-/* ======== PRINCIPAL ===========*/
-/*      Estilo da pagina sobre   */
 .principal-style h1 {
     color: rgb(80, 18, 250);
 }
