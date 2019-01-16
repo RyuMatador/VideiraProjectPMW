@@ -32,7 +32,6 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Maior de idade</label>
                         </div>
-
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
@@ -42,9 +41,9 @@
 
 
     <!-- PRINCIPAL -->
-    <article class="container p-5 | principal-style |">
+    <article class="container p-5 principal-style">
         <div class="row flex-column">
-            <h1 class="display-5 pb-3">QUEM SOMOS ?</h1>
+            <h1 class="display-5 pt-0 py-md-3">QUEM SOMOS ?</h1>
             <p>A igreja Videira em Palmas é um igreja em células iniciada no ano de 1999, tem como pastor senior o
                 pastor
                 Mauro Estival discípulo de Pr.Aluizio Silva atual presidente do Ministério Vinha. </p>
@@ -58,8 +57,7 @@
         </div>
 
         <div class="row flex-column">
-            <h1 class="display-5 pb-3">O QUE CREMOS ?</h1>
-
+            <h1 class="display-5 pt-0 py-md-3">O QUE CREMOS ?</h1>
             <div class="accordion" id="accordionGeral">
                 <!-- CARD01-->
                 <div class="card">

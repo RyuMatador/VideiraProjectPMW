@@ -2,7 +2,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	    
     <!-- CAROUSSEL -->
-    <section class="container-fluid">
+    <section class="container-fluid pt-md-5">
         <div class="row">
             <div class="col-lg-1 carousel-sides bg-dark d-none d-md-block"></div>
             <div class="col-lg-10 col-md-12 col-sm-12 carousel-style">

@@ -1,28 +1,21 @@
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?famlily=Jaldi');
-@font-face{font-family: 'OrangeJuice';src: url(fonts/orangejuice.ttf);}
+@font-face{font-family: 'Gabo'; src: url(fonts/gabo.otf);}
+@font-face{font-family: 'Raleway'; src: url(fonts/raleway.ttf);}
 ::selection {background-color: rgb(177, 118, 231);color:white;}
+
+body {
+    padding-top: 40px;
+}
+
+p {
+    font-family: 'Raleway', 'Lato', sans-serif;
+}
 
 a:hover {
     text-decoration: transparent;
     color: white;
 }
-body {
-    font-family: 'Lato', sans-serif;
-    padding-top: 40px;
-}
-.card {
-    border-radius: 0 !important;
-    border: 0px;
-}
-.card-body {
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 5;
-    position: relative;
-    top: -2em;;
-}
-
 
 /* ======== NAVIGATION ======== */
 .navbar-style {
@@ -40,66 +33,9 @@ body {
 .dropdown-menu .dropdown-item {
     color: black;
 }
-
-/* ======== CAROUSSEL ========= */
-.carousel-style {
-    padding-left: 0px;
-    padding-right: 0px;   
-}
-
-.carousel-sides {
-    padding-left: 0px;
-    padding-right: 0px;
-    background-repeat: repeat;
-    background-clip: content-box;
-    background-size: 3em;
-    opacity: 0.5;
-    mask: white;
-}
-
-/* ======== NEWS ===============*/
-.news-total-style {
-    background-image: url(imgs/blurred-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* ======== GALLERY ============*/
-.gallery-style{
-    background-color: whitesmoke;
-}
-.gallery-style h1 {
-    font-family: 'OrangeJuice', sans-serif;
-}
-/* ======== HERO ===============*/
-.hero-style {
-    background: url(imgs/bg-uvas.jpg);
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: color;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    z-index: 1;
-    /*box-shadow: inset 0px 0px 200px 32px rgba(0,0,0,0.75);*/
-
-}
-
-/* ======== EVENTOS ===============*/
-.eventos-style {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);  
-}
-/* ======== MENSAGEM ===========*/
-.mensagem-style {
-    margin-top: -20px;
-    background-color: cornflowerblue;  
-}
-
-.mensagem-style svg{
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    height: 6em;
+/* ======== PALAVRA =======*/
+.palavra-titulo {
+    font-family: 'Raleway', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* ======== NEWSLETTER =========*/
@@ -109,6 +45,7 @@ body {
     text-align: center;
     padding-top: 2em
 }
+
 /* ======== FOOTER =============*/
 .instagram-style {
     -webkit-transition: background-image background-size 1s;
@@ -139,8 +76,6 @@ body {
     background-color: #3b5998
 }
 
-/* ======== COPYRIGHT ==========*/
-
 /* ======== MEDIA ==============*/
 @media (max-width: 768px) {
     body {
@@ -151,30 +86,31 @@ body {
     }
 }
 
-html {
-    font-size: 1rem;
+/* ======== FONTS ==============*/
+.display-5 {
+    font-size: 2rem;
   }
   
   @include media-breakpoint-up(sm) {
-    html {
+    .display-5  {
       font-size: 1.2rem;
     }
   }
   
   @include media-breakpoint-up(md) {
-    html {
+    .display-5  {
       font-size: 1.4rem;
     }
   }
   
   @include media-breakpoint-up(lg) {
-    html {
+    .display-5  {
       font-size: 1.6rem;
     }
   }
 
 /* ======== PRINCIPAL ===========*/
-/*      Estilo da pagina sobre   */
+
 .principal-style h1 {
     color: rgb(80, 18, 250);
 }
