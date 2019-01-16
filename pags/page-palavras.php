@@ -222,7 +222,7 @@
     </div>
 
     <!-- PALAVRA -->
-    <nav class="py-2 m-0" style="background-image: url(<?php echo get_stylesheet_directory_uri()?>/imgs/blurred-background.jpg);background-repeat: no-repeat; background-size: cover; z-index: 2;" >
+    <nav class="py-2 m-0 palavra-titulo-total" style="background-image: url(<?php echo get_stylesheet_directory_uri()?>/imgs/blurred-background.jpg)" >
         <div class="container">
             <div class="row">
                 <div class="col-12">

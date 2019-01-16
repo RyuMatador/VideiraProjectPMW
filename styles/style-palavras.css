@@ -1,14 +1,15 @@
 /* ======== RESET OR NORMALIZE ======== */
 @import url('https://fonts.googleapis.com/css?family=Lato');
-@font-face{font-family: 'Gabo'; src: url(fonts/gabo.otf);}
-@font-face{font-family: 'Raleway'; src: url(fonts/raleway.ttf);}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face{font-family: 'Gabo'; src: url(../fonts/gabo.otf);}
 ::selection {background-color: rgb(177, 118, 231);color:white;}
 
 body {
     padding-top: 40px;
+    background-color: rgb(250, 249, 249);
 }
 
-p {
+.col-md-8 p {
     font-family: 'Raleway', 'Lato', sans-serif;
 }
 
@@ -34,8 +35,16 @@ a:hover {
     color: black;
 }
 /* ======== PALAVRA =======*/
+.palavra-titulo-total {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+    z-index: 2;
+}
+
 .palavra-titulo {
-    font-family: 'Raleway', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
 }
 
 /* ======== NEWSLETTER =========*/
